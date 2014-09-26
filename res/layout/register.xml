@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_linen_screen"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="60dp" >
+
+    <EditText
+        android:id="@+id/et_mobile"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_common_form_field"
+        android:ems="10"
+        android:hint="@string/mobile"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dip" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_common_form_field"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp" />
+
+    <Switch
+        android:id="@+id/alert_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/alert_service"
+        android:checked="true" />
+    <Switch
+        android:id="@+id/sms_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sms_service" />
+        <Switch
+        android:id="@+id/mail_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mail_service"
+        android:visibility="gone" />
+        <Switch
+        android:id="@+id/alarm_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alarm_service"
+        android:checked="true" />
+        
+    
+    <Button
+        android:id="@+id/bt_sign_up"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bt_bg_blue_half"
+        android:text="@string/sign_up"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    
+
+</LinearLayout>

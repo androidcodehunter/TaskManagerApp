@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_linen_screen" >
+
+    <Button
+        android:layout_marginLeft="5dp"
+        android:id="@+id/btn_send_sms"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight=".5"
+        android:background="@drawable/bt_bg_gold"
+        android:text="Send SMS"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_send_email"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight=".5"
+        android:background="@drawable/bt_bg_blue_half"
+        android:text="Send Email"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

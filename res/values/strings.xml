@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Task Manager</string>
+    <string name="tasks">Tasks</string>
+    <string name="add_task">Add Task</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_tasks">No Tasks</string>
+    <string name="remove_task">Remove</string>
+    <string name="add_map">Add Map</string>
+    <string name="map_this_address">Map This Address</string>
+    <string name="add_location_to_task">Add Location to Task</string>
+    <string name="use_this_location">Use this Location</string>
+
+</resources>

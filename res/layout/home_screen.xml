@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_linen_screen"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <Button
+            android:id="@+id/bt_sign_up"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bt_bg_gold"
+            android:text="@string/sign_up"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+  
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="77dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dip" >
+
+        <ImageButton
+            android:layout_width="194dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.79"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:maxWidth="100dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon" />
+    </LinearLayout>
+
+</RelativeLayout>
